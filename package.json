@@ -1,0 +1,21 @@
+{
+  "name": "@fireanon/pi-read-the-room",
+  "version": "1.0.0",
+  "description": "Always-on operating rules for opencode/pi — tone, delivery, authorization, creative briefs, and stated facts.",
+  "keywords": ["pi-package", "pi-skill"],
+  "license": "MIT",
+  "author": "FireAnon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fireanon/pi-read-the-room.git"
+  },
+  "pi": {
+    "skills": ["skills/read-the-room/SKILL.md"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
